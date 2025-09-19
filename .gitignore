@@ -58,3 +58,7 @@ back/.LSOverride
 
 # 기타 vector DB 등
 back/vector_db/
+
+
+.env.example
+.env.production.example
