@@ -1,0 +1,57 @@
+.env
+.env.production
+
+.claude/
+nul
+
+# 루트 + 하위 폴더 db 파일 무시
+db
+**/db
+*.db
+instance/mypetsvoice.db
+# Python cache
+
+# python 어쩌꾸
+__pycache__/
+*.pyc
+
+# 데이터베이스
+**/chroma_db/
+.db
+instance/
+db생성요청사항.txt
+insert_data.py
+
+# Storage 디렉토리 (벡터DB, 캐시 제외, 문서는 포함)
+storage/chroma_db/
+storage/embedding_cache/
+# storage/documents/ - RAG 문서들은 Git에 포함
+
+# 로그파일
+logs/
+app.log
+
+# vscode 파일
+.vscode
+
+# 개인 파일(태민)
+.claude
+mypage요구사항
+test_pet_models.py
+recreate_pets_table.py
+init_db_data.py
+db생성_요구사항.txt
+add_other_breeds.py
+
+
+
+# =============== #
+# Mac OS 관련 파일 #
+# =============== #
+
+# Finder 설정 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+/vector_db/
