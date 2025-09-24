@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-from config import Config
+from back.config import Config
 
 # 매번 인스턴스 생성하지 않게 하기!
 class OpenAIService:

@@ -20,7 +20,7 @@ import tiktoken
 from collections import Counter
 import numpy as np
 
-from config import Config
+from back.config import Config
 
 
 logger = logging.getLogger(__name__)

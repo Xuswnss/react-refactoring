@@ -2,7 +2,7 @@ import base64
 import logging
 import asyncio
 from openai import AsyncOpenAI
-from config import Config
+from back.config import Config
 
 logger = logging.getLogger(__name__)
 

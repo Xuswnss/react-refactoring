@@ -10,7 +10,7 @@ from app.services.dailycare.openAI_service import get_gpt_response
 from app.services.dailycare.vectorstore_service import VectorStoreService
 from flask import current_app as app
 from langchain_core.documents import Document
-from config import Config
+from back.config import Config
 import os
 
 

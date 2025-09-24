@@ -2,15 +2,16 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO
 from app.routes import register_blueprints
 from app.models import init_db
-from config import config, setup_logging
+from back.config import config, setup_logging
 from dotenv import load_dotenv
+from flask_cors import CORS
 import os
 
 load_dotenv()
 
 def create_app(config_name=None):
     app = Flask(__name__)
-    
+    CORS(app)
     # 설정 로드
     if config_name is None:
         config_name = os.getenv('FLASK_ENV', 'default')

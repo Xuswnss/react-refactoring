@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from werkzeug.utils import secure_filename
 import logging
-from config import Config
+from back.config import Config
 
 logger = logging.getLogger(__name__)
 

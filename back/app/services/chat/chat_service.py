@@ -8,7 +8,7 @@ from app.models import Pet, PetPersona
 from datetime import datetime
 import logging
 import os
-from config import Config
+from back.config import Config
 
 logger = logging.getLogger(__name__)
 
